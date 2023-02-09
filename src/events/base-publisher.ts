@@ -21,7 +21,7 @@ export abstract class Publisher<T extends Event> {
         }
         console.log(this.subject, "event published");
         resolve();
-        console.log("event published");
+        console.log("event published!");
       });
     });
   }
